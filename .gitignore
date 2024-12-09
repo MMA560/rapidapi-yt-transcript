@@ -1,0 +1,60 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment variables file
+.env
+
+# Ignore compiled files
+*.so
+*.dll
+*.pyd
+
+# Ignore database files
+*.sqlite3
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore specific dependency management files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore testing-related files
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# Ignore application-specific temporary files
+instance/
+storage/
+uploads/
+media/
+
+# Ignore Heroku-specific build artifacts
+*.lock
